@@ -1,5 +1,5 @@
 # guvicode
-x=int(input())
+n=int(input())
 if n%2==0:
   print("Even")
 elif n%2==1:
