@@ -1,7 +1,7 @@
 #........
 n=int(input())
 j=""
-for i range(1,6):
+for i in range(1,6):
   s=n*i
   j=j+str(s)+" "
   s=0
