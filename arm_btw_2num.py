@@ -10,4 +10,6 @@ for n in range(a+1,k):
   if(m==s):
     i=i+str(s)+" "
     s=0
+  else:
+    s=0
 print(i.strip())
