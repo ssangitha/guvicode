@@ -4,3 +4,4 @@ if(n==s):
   print("yes")
 else:
   print("no")
+#.....palindrom.......
