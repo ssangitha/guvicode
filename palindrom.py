@@ -1,6 +1,7 @@
 n=int(input())
-s=n[::-1]
-if(n==s):
+o=str(n)
+s=o[::-1]
+if(o==s):
   print("yes")
 else:
   print("no")
