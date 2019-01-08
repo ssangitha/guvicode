@@ -3,5 +3,6 @@ n,m=map(int,input().split())
 for i in range(n+1,m):
   if i%2!=0:
     s=s+str(i)+" "
-print(s.rstrip())
+r=s.strip()
+print(r)
     
