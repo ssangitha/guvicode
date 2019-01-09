@@ -1,5 +1,6 @@
-n,a,d=map(int,input())
-s=0
-for i in range(n):
-  s=a+d
+n,a,d=map(int,input().split())
+s=a
+for i in range(1,n):
+  s=s+((d*i)+a)
 print(s)
+#...........ap.....
