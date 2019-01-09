@@ -5,3 +5,4 @@ for i in range(1,n):
   if max<l[i]:
     max=l[i]
 print(max)
+#........max.....
