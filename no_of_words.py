@@ -1,3 +1,7 @@
 s=input()
-l=list(s.split(" "))
-print(len(s))
+c=1
+for i in s:
+	if i==" ":
+		c=c+1
+print(c)
+#........no.of.words........
