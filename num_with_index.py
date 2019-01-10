@@ -1,3 +1,4 @@
-s=input()
+s=int(input())
+l=list(map(int,input().split()))
 for i in range(0,len(s)):
-  print(s[i]," ",i)
+  print(l[i]," ",i)
