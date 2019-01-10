@@ -5,5 +5,5 @@ for i in range(0,len(s)):
     print("No")
     break
 if(i==(len(s)-1)):
-  print("Yes")
+  print("yes")
 #........num.....
