@@ -2,4 +2,4 @@ n=input()
 s=""
 for i in n:
   s=s+i+" "
-print(s)
+print(s.stripe())
