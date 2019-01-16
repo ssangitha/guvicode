@@ -1,5 +1,9 @@
+
 n=input()
 s=""
 for i in n:
   s=s+i+" "
-print(s.strip())
+r=s.strip()
+print(r)
+print(len(r))
+#..........
