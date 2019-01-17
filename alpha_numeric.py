@@ -1,6 +1,11 @@
+# your code goes here
 n=input()
-if n.isalpha() or n.isdigit():
-	print("No")
+if any(i.isalpha() for i in n):
+	if any(i.isdigit() for i in n):
+		print("Yes")
+	else:
+		print("No")
 else:
-	print("Yes")
-#...........alphanumeric.....
+	print("No")
+			
+			
