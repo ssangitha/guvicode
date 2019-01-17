@@ -1,0 +1,3 @@
+s,d=input().split()
+print(s+d)
+#....join...
