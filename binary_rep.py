@@ -4,4 +4,5 @@ if all(i in l for i in s):
 	print("yes")
 else:
 	print("no")
-....binary or not....
+		
+#......binaryy....
