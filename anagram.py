@@ -1,6 +1,6 @@
 n=int(input())
 l=[]
-s="Kabali"
+s="kabali"
 x=0
 for i in range(n):
 	c=input()
