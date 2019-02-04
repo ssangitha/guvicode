@@ -8,9 +8,10 @@ for i in range(n):
 for i in l:
 	if len(i)==len(s):
 		a=i
-		for j in s:
-			if j in a:
-				a.replace(j,"")
-		if len(a)==0:
-			c=c+1
-print(c)
+		for j in a:
+			if j in s:
+				a=a.replace(j,"0",1)
+		if a=="000000":
+			x=x+1
+print(x)
+#.....anagram
