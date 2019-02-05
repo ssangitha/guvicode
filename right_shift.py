@@ -1,7 +1,8 @@
-n,k=map(int,input().split())
 l=list(map(int,input().split()))
 s=[0 for i in range(n)]
 x=""
+if n<k:
+	k=k-n
 for i in range(0,n):
 	if i+k<len(l):
 		s[i+k]=l[i]
