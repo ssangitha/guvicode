@@ -11,4 +11,4 @@ else:
 	for i in s:
 		x=x+str(i)+" "
 	print(x.strip())
-#.........print the elements if index equal to value..
+#.........print the elements if index equal to value............
