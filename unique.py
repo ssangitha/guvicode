@@ -5,8 +5,11 @@ s=[]
 for i in l:
 	if l.count(i)>1 and i not in s:
 		s.append(i)
-s.sort()
-for i in s:
-	x=x+str(i)+" "
-print(x.strip())
+if len(s)==0:
+	print("unique")
+else:
+	s.sort()
+	for i in s:
+		x=x+str(i)+" "
+	print(x.strip())
 #...unique....
