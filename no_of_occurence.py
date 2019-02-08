@@ -1,0 +1,3 @@
+n,k=map(str,input().split())
+print(n.count(k))
+#...print num of occc of k in n....
