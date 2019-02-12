@@ -10,3 +10,4 @@ else:
 		if i==j:
 			a=a+str(i)+" "
 	print(a.strip())
+#..........prime....
