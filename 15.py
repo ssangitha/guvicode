@@ -14,4 +14,5 @@ for i in range(0,len(l)-1):
 		if l1[i]<l1[j]:
 			l1[i],l1[j]=l1[j],l1[i]
 			l[i],l[j]=l[j],l[i]
-print(l)
+for i in l:
+	print(i)
