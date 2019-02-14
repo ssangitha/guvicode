@@ -11,8 +11,12 @@ for i in l:
 	c=0
 for i in range(0,len(l)-1):
 	for j in range(i+1,len(l)):
-		if l1[i]<l1[j]:
+		if l1[i]==l1[j] and l[i]<l[j]:
+			l1[i],l1[j]=l1[j],l1[i]
+			l[i],l[j]=l[j],l[i]
+		elif l1[i]<l1[j]:
 			l1[i],l1[j]=l1[j],l1[i]
 			l[i],l[j]=l[j],l[i]
 for i in l:
+	
 	print(i)
