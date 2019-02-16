@@ -1,11 +1,16 @@
 n,k=map(int,input().split())
 n=str(n)
 d=len(n)-k
-l=[]
+j=1
+m=min(n)
+a=m
 if k==0:
 	print(n)
 else:
-	for i in range(0,(len(n)-d)+1):
-		a=int(n[i:i+d])
-		l.append(a)
-	print(min(l))
+	while(j<d):
+		i=n.index(m)
+		x=n[i+1:]
+		m=min(x)
+		a=a+m
+		j=j+1
+	print(a)
