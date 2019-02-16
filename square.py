@@ -15,3 +15,4 @@ if c==0:
 	print("yes")
 else:
 	print("no")
+#....find square or no......
