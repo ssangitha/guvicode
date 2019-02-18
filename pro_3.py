@@ -1,25 +1,15 @@
-x,y=map(str,input().split())
-i=0
-j=0
-z2=len(y)
-z1=len(x)
-if x==y:
-	print("0")
+x,y = map(str,input().split())
+c = 0
+c+=abs(len(y)-len(x))
+if(len(x)<=len(y)):
+    max = y
+    min = x
 else:
-	a=x.index(y[0])
-	if z2<z1:
-		x,y=y,x
-		z2,z1=z1,z2
-	s=x[a:]
-	z=len(s)
-	while i<len(s) and j<len(s):
-		if y[i]!=s[j]:
-			a=a+1
-			i=i+1
-		else:
-			i=i+1
-			j=j+1
-	d=abs(z2-z)
-	print(a+d)
+    max = x
+    min = y
+for i in range(len(min)):
+    if(min[i]!=max[i]):
+        c+=1
+print(c)
 	
 	#.......................
