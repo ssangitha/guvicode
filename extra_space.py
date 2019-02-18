@@ -1,4 +1,5 @@
 import re
 s=input()
-print(re.sub(' +', ' ',s))
+r=re.sub(' +', ' ',s)
+print(r.strip())
 #remove extra space
