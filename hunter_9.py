@@ -1,7 +1,10 @@
 n=int(input())
 l=list(map(int,input().split()))
+m=max(l)
 for i in range(0,n-1):
 	for j in range(i+1,n):
-		if l[i]+l[j]==0:
-			print(str(l[i])+" "+str(l[j]))
-			break
+		c=abs(l[i]+l[j])
+		if c<=m:
+			m=c
+			a,b=str(l[i]),str(l[j])
+print(a+" "+b)
