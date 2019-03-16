@@ -8,5 +8,5 @@ for i in range(n):
 	elif i%2==1 and l[i]%2==0:
 		z.append(str(l[i]))
 for i in z:
-    a=a+z+" "
+    a=a+i+" "
 print(a.strip())
