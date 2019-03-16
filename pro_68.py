@@ -1,6 +1,6 @@
-n,k=map(int,input().split())                                                                                           
-if n-k==0:
-	c=0
+
+p,q=map(int,input().split())
+if q==1:
+    print("1 2")
 else:
-	c=1
-	print(c,n-k)
+	print("1 "+str(p-q))
