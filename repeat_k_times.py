@@ -1,4 +1,4 @@
-n,k=map(int,input().split())
+n,m,k=map(int,input().split())
 l=list(map(int,input().split()))
 p=[]
 a=""
