@@ -3,4 +3,4 @@ if a==b:
 	print("yes")
 else:
 	print("no")
-#str cmpr.
+#str cmpr
