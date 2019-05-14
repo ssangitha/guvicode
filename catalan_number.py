@@ -15,3 +15,4 @@ for i in range(s):
 for i in l:
 	x=x+str(i)+" "	
 	print(x.strip())
+#catalan
