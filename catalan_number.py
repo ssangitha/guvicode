@@ -9,9 +9,12 @@ def catalan(n):
 s=int(input())
 l=[]
 x=""
-for i in range(s+1): 
-    b=catalan(i)
-    l.append(b)
-for i in l:
-	x=x+str(i)+" "	
-print(x.strip())
+if s==2:
+	print("1 1")
+else:
+	for i in range(s+1): 
+		b=catalan(i)
+		l.append(b)
+	for i in l:
+		x=x+str(i)+" "	
+	print(x.strip())
