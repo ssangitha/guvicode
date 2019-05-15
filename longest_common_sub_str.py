@@ -11,7 +11,6 @@ else:
 			if c in a:
 				l.append([c,len(c)])
 	l.sort(key=lambda x:x[1],reverse=True)
-	print(l)
 	if l[0][0].isalpha():
 		print(l[0][0])
 	else:
@@ -19,8 +18,8 @@ else:
 			if l[i][1]==l[i+1][1]:
 				m.append(l[i][0])
 				m.append(l[i+1][0])
-				print(m)
 			else:
 				break
 		m.sort(reverse=True)
 		print(m[0])
+				
