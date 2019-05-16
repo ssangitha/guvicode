@@ -1,5 +1,5 @@
 n=int(input())
 s="->"
 l=list(map(str,input().split()))
-l.sort(reverse=True)
+l=l[::-1]
 print(s.join(l))
