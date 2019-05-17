@@ -1,6 +1,7 @@
-s=int(input())
-n=s//2
-if s%2!=0:
-	print(s)
+n=int(input())
+if n%2!=0:
+  print(n)
 else:
-	print(((n*2)-1)*n)
+  r=(2*(n//2))-1
+  print((n//2)*r)
+#std
