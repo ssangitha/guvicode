@@ -8,4 +8,4 @@ for i in range(len(n)):
 		s.append(sum(d))
 		d=[]
 print(sum(s))
-#sum
+#sum..
