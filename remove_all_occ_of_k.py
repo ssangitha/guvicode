@@ -4,4 +4,7 @@ s=" "
 l=list(map(str,input().split()))
 while k in l: 
 	l.remove(k)
-print(s.join(l))
+if len(l)!=0:
+	print(s.join(l))
+else:
+	print("empty")
