@@ -1,4 +1,6 @@
 s=input()
+if s[-1]==".":
+	s=s[:-1]
 l=list(s.split(" "))
 a=[]
 for i in range(len(l)):
