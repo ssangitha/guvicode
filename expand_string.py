@@ -15,4 +15,4 @@ for i in range(len(d)):
 		c+=(a[i]*int(d[i]))
 	else:
 		c+=a[i]+d[i]
-print(c)
+print(c.strip())
