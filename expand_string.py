@@ -16,3 +16,4 @@ for i in range(len(d)):
 	else:
 		c+=a[i]+d[i]
 print(c.strip())
+#
