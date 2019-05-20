@@ -1,0 +1,10 @@
+n,m=map(int,input().split())
+l=list(map(str,input().split()))
+a=[]
+b=l[:n]
+c=l[n:]
+for i in c:
+	if i in b and i not in a:
+		a.append(i)
+a.sort()
+print(" ".join(a))
