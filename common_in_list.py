@@ -4,7 +4,8 @@ a=[]
 b=l[:n]
 c=l[n:]
 for i in c:
-	if i in b and i not in a:
+	if i in b:
 		a.append(i)
+		b.remove(i)
 a.sort()
 print(" ".join(a))
