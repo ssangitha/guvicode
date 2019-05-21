@@ -9,4 +9,4 @@ for i in range(1,len(l)):
 		b=c[::-1]
 		a.append(b)
 print(" ".join(a))
-#
+#reverse
