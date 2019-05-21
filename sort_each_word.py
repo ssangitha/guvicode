@@ -5,3 +5,4 @@ for i in l:
 	b=sorted(i)
 	a.append("".join(b))
 print(" ".join(a))
+#
