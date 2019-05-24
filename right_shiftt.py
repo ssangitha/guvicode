@@ -1,3 +1,3 @@
 n,k=map(int,input().split())
-print(n>>k)
-#rightshift.py
+a=n>>k
+print("%.2f" % a)
