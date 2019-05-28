@@ -7,3 +7,5 @@ else:
 	b=s[n+1:]
 	if a==b:
 		print("YES")
+	else:
+		print("NO")
