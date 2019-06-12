@@ -10,3 +10,4 @@ for i in range(n):
         elif l[i][j]=="G" and l[i][j+1]=="G":
             c=c+3
 print(c)
+#cherry prblm
